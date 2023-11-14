@@ -7,6 +7,7 @@ const Hero = () => {
   return (
     <div className="relative my-4 px-4">
       <div className="absolute top-10 h-32 w-32 rotate-45 bg-gradient-to-l from-[#5FBCFF] to-[#A471FB] blur-xl"></div>
+      <div className="absolute bottom-12 left-[600px] rotate-45 h-32 w-32 rotate- bg-gradient-to-t from-[#5FBCFF] to-[#A471FB] blur-md rounded-md"></div>
       {/* for tablet and destop  */}
       <div className="max-w-7xl mx-auto hidden md:grid grid-cols-2 relative">
         <div></div>

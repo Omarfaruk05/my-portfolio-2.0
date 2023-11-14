@@ -14,6 +14,7 @@ const Nav = () => {
           </button>
         </ul>
       </div>
+      <div className="shadow-lg"></div>
     </div>
   );
 };
