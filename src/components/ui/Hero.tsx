@@ -8,6 +8,7 @@ import {
   FaInstagramSquare,
   FaLinkedin,
 } from "react-icons/fa";
+import { MdOutlineCloudDownload } from "react-icons/md";
 
 const Hero = () => {
   return (
@@ -50,6 +51,9 @@ const Hero = () => {
               <a href="https://github.com/Omarfaruk05" target="_blank">
                 <FaGithubSquare size={40} />
               </a>
+              <button className="flex  items-center gap-2 transition duration-0 hover:duration-500 mx-2 px-4 hover:text-[#050C13] rounded-sm my-[3px] bg-gradient-to-r from-[#5FBCFF] to-[#A471FB]">
+                <MdOutlineCloudDownload size={20} /> Resume
+              </button>
             </div>
           </div>
         </div>
@@ -98,6 +102,9 @@ const Hero = () => {
               <a href="https://github.com/Omarfaruk05" target="_blank">
                 <FaGithubSquare size={40} />
               </a>
+              <button className="transition duration-0 hover:duration-500 mx-2 px-4 hover:text-[#050C13] rounded-sm my-[3px] bg-gradient-to-r from-[#5FBCFF] to-[#A471FB]">
+                Resume
+              </button>
             </div>
           </div>
         </div>

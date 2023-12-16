@@ -2,6 +2,7 @@ import Image from "next/image";
 import project1 from "../../assects/projects/rent_nest.png";
 import project2 from "../../assects/projects/e_mart.png";
 import project3 from "../../assects/projects/book_haven.png";
+import { CiCircleChevRight } from "react-icons/ci";
 
 const Projects = () => {
   return (
@@ -370,9 +371,9 @@ const Projects = () => {
             </div>
           </div>
         </div>
-        <div className="text-center mt-4">
-          <button className="transition duration-0 hover:duration-500 mx-2 px-4 hover:text-[#050C13] rounded-sm py-1 bg-gradient-to-r from-[#5FBCFF] to-[#A471FB]">
-            See More
+        <div className=" flex justify-center mt-4">
+          <button className="flex gap-2 items-center transition duration-0 hover:duration-500 mx-2 px-4 hover:text-[#050C13] rounded-sm py-1 bg-gradient-to-r from-[#5FBCFF] to-[#A471FB]">
+            See More <CiCircleChevRight size={20} />
           </button>
         </div>
       </div>

@@ -1,4 +1,5 @@
 "use client";
+import { AiOutlineSend } from "react-icons/ai";
 
 const ContactMe = () => {
   const handleSubmit = (e: any) => {
@@ -72,12 +73,9 @@ const ContactMe = () => {
                 id=""
               />
             </div>
-            <div className="text-center">
-              <input
-                className="cursor-pointer transition duration-0 hover:duration-500 mx-2 px-4 hover:text-[#050C13] rounded-sm py-1 bg-gradient-to-r from-[#5FBCFF] to-[#A471FB]"
-                type="submit"
-                value="Send Message"
-              />
+            <div className="mx-auto flex justify-center items-center gap-2 w-fit text-center cursor-pointer transition duration-0 hover:duration-500 px-4 hover:text-[#050C13] rounded-sm py-1 bg-gradient-to-r from-[#5FBCFF] to-[#A471FB]">
+              <input className="" type="submit" value="Send Message" />
+              <AiOutlineSend size={20} />
             </div>
           </form>
         </div>
