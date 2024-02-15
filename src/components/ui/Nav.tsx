@@ -4,7 +4,7 @@ const Nav = () => {
   return (
     <div className="backdrop-blur-lg fixed w-full top-0 z-30">
       <div className=" max-w-7xl mx-auto px-4 flex justify-center sm:justify-between items-center py-4">
-        <h2 className="text-lg font-semibold hidden sm:block">OM</h2>
+        <h2 className="text-lg font-semibold hidden sm:block">OMAR FARUK</h2>
 
         <ul className="flex gap-1 items-center list-none ">
           <button className="hover:outline-dashed outline-[1px] tranistion delay-100 rounded-sm py-[1px] px-2">

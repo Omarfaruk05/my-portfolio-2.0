@@ -1,7 +1,8 @@
 import Image from "next/image";
-import project1 from "../../assects/projects/rent_nest.png";
-import project2 from "../../assects/projects/e_mart.png";
-import project3 from "../../assects/projects/book_haven.png";
+import project1 from "../../assects/projects/rent-nest.png";
+import project2 from "../../assects/projects/e-mart.png";
+import project3 from "../../assects/projects/book-haven.png";
+import project4 from "../../assects/projects/tech-next.png";
 import { CiCircleChevRight } from "react-icons/ci";
 
 const Projects = () => {
@@ -25,7 +26,7 @@ const Projects = () => {
         <div className="lg:grid grid-cols-2 gap-2 ">
           <div className="grid grid-cols-3 gap-2 md:m-2 p-2 justify-center border border-blue-500 rounded-md backdrop-blur-lg bg-gray-700/50">
             <div>
-              <Image className="rounded-md h-full" src={project1} alt="" />
+              <Image className="rounded-md h-64" src={project1} alt="" />
             </div>
             <div className="col-span-2">
               <h2 className="text-xl font-semibold">Rent Nest</h2>
@@ -115,7 +116,7 @@ const Projects = () => {
           </div>
           <div className="grid grid-cols-3 gap-2 md:m-2 p-2 justify-center border border-blue-500 rounded-md backdrop-blur-lg bg-gray-700/50">
             <div>
-              <Image className="rounded-md h-full" src={project2} alt="" />
+              <Image className="rounded-md h-64" src={project2} alt="" />
             </div>
             <div className="col-span-2">
               <h2 className="text-xl font-semibold">E-Mart</h2>
@@ -179,14 +180,15 @@ const Projects = () => {
                 </span>
                 <div className="mt-1 text-xs flex gap-1 flex-wrap">
                   <a
-                    href="https://github.com/Omarfaruk05/rent-nest-backend"
+                    href="https://heartfelt-tiramisu-5729e5.netlify.app"
+                    target="_blank"
                     className="py-[1px] px-[4px] rounded-sm  bg-slate-400"
                   >
                     Live
                   </a>
                   <a
                     href="https://github.com/Omarfaruk05/e-mart-client"
-                    target="_black"
+                    target="_blank"
                     className="py-[1px] px-[4px] rounded-sm  bg-slate-400"
                   >
                     Front-end
@@ -204,7 +206,7 @@ const Projects = () => {
           </div>
           <div className="grid grid-cols-3 gap-2 md:m-2 p-2 justify-center border border-blue-500 rounded-md backdrop-blur-lg bg-gray-700/50">
             <div>
-              <Image className="rounded-md h-full" src={project3} alt="" />
+              <Image className="rounded-md h-64" src={project3} alt="" />
             </div>
             <div className="col-span-2">
               <h2 className="text-xl font-semibold">Book Haven</h2>
@@ -294,7 +296,7 @@ const Projects = () => {
           </div>
           <div className="grid grid-cols-3 gap-2 md:m-2 p-2 justify-center border border-blue-500 rounded-md backdrop-blur-lg bg-gray-700/50">
             <div>
-              <Image className="rounded-md h-full" src={project1} alt="" />
+              <Image className="rounded-md snap-y h-60" src={project4} alt="" />
             </div>
             <div className="col-span-2">
               <h2 className="text-xl font-semibold">Rent Nest</h2>
