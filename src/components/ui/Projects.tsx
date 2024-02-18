@@ -23,7 +23,7 @@ const Projects = () => {
           <div className="w-full h-[3px] bg-blue-500 rounded-full"></div>
         </div>
         {/* main part  */}
-        <div className="lg:grid grid-cols-2 gap-2 ">
+        <div className="grid grid-cols-1 md:grid-cols-2 gap-2 ">
           <div className="grid grid-cols-3 gap-2 md:m-2 p-2 justify-center border border-blue-500 rounded-md backdrop-blur-lg bg-gray-700/50">
             <div>
               <Image className="rounded-md h-64" src={project1} alt="" />
