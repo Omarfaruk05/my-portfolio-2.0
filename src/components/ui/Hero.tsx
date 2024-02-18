@@ -51,9 +51,16 @@ const Hero = () => {
               <a href="https://github.com/Omarfaruk05" target="_blank">
                 <FaGithubSquare size={40} />
               </a>
-              <button className="flex  items-center gap-2 transition duration-0 hover:duration-500 mx-2 px-4 hover:text-[#050C13] rounded-sm my-[3px] bg-gradient-to-r from-[#5FBCFF] to-[#A471FB]">
-                <MdOutlineCloudDownload size={20} /> Resume
-              </button>
+              <a
+                href={"/Omar-Faruk-Resume-Full-Stack.pdf"}
+                target="_blank"
+                rel="noopener noreferrer"
+                download
+              >
+                <button className="py-1 flex items-center gap-2 transition duration-0 hover:duration-500 mx-2 px-4 hover:text-[#050C13] rounded-sm my-[3px] bg-gradient-to-r from-[#5FBCFF] to-[#A471FB]">
+                  <MdOutlineCloudDownload size={20} /> Resume
+                </button>
+              </a>
             </div>
           </div>
         </div>
@@ -80,7 +87,7 @@ const Hero = () => {
               server-side functionalities. Their expertise spans the entire tech
               stack, ensuring comprehensive and efficient solutions.
             </small>
-            <div className="flex gap-2 mt-2">
+            <div className="flex items-center gap-2 mt-2">
               <a
                 href="https://www.facebook.com/profile.php?id=100023919873768"
                 target="_black"
@@ -102,9 +109,16 @@ const Hero = () => {
               <a href="https://github.com/Omarfaruk05" target="_blank">
                 <FaGithubSquare size={40} />
               </a>
-              <button className="transition duration-0 hover:duration-500 mx-2 px-4 hover:text-[#050C13] rounded-sm my-[3px] bg-gradient-to-r from-[#5FBCFF] to-[#A471FB]">
-                Resume
-              </button>
+              <a
+                href={"/Omar-Faruk-Resume-Full-Stack.pdf"}
+                target="_blank"
+                rel="noopener noreferrer"
+                download
+              >
+                <button className="py-1 flex items-center gap-2 transition duration-0 hover:duration-500 mx-2 px-4 hover:text-[#050C13] rounded-sm my-[3px] bg-gradient-to-r from-[#5FBCFF] to-[#A471FB]">
+                  <MdOutlineCloudDownload size={20} /> Resume
+                </button>
+              </a>
             </div>
           </div>
         </div>
