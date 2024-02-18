@@ -20,7 +20,14 @@ const Nav = () => {
             Blogs
           </button>
           <button className="flex items-center gap-2 transition duration-0 hover:duration-500 mx-2 px-4 hover:text-[#050C13] rounded-sm py-1 bg-gradient-to-r from-[#5FBCFF] to-[#A471FB]">
-            <MdOutlineCloudDownload size={20} /> Resume
+            <a
+              href={"/Omar-Faruk-Resume-Full-Stack.pdf"}
+              target="_blank"
+              rel="noopener noreferrer"
+              download
+            >
+              <MdOutlineCloudDownload size={20} /> Resume
+            </a>
           </button>
         </ul>
       </div>
