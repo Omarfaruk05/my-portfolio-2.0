@@ -5,14 +5,14 @@ import NavigationButton from "../shared/NavigationButton";
 const ProjectsAndServices = () => {
   return (
     <div className="space-y-12 ">
-      <div className="border p-2 rounded-full bg-gradient-to-r from-gray-700 to-gray-900">
+      <div className="border p-2 rounded-full bg-gradient-to-r from-[#262626] to-[#151515]">
         <marquee>
           LATEST WORK AND FEATURED POWERFULL AND SECURE APPLICATION LATEST WORK
           AND FEATURED LATEST WORK AND FEATURED
         </marquee>
       </div>
       <div className="rounded-xl flex gap-5 h-[70%]">
-        <div className="cursor-pointer relative w-1/2 bg-gradient-to-r from-gray-700 p-4 to-gray-900 rounded-xl">
+        <div className="cursor-pointer relative p-4 w-1/2 bg-gradient-to-r from-[#262626] to-[#151515] rounded-xl">
           <Image
             className="mx-auto"
             src={projectsPhoto}
@@ -28,7 +28,7 @@ const ProjectsAndServices = () => {
             <NavigationButton />
           </div>
         </div>
-        <div className="cursor-pointer relative p-4 w-1/2 bg-gradient-to-r from-gray-700 to-gray-900 rounded-xl">
+        <div className="cursor-pointer relative p-4 w-1/2 bg-gradient-to-r from-[#262626] to-[#151515] rounded-xl">
           <Image
             className="mx-auto"
             src={projectsPhoto}

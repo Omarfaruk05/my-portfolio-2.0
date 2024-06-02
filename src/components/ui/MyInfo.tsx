@@ -6,7 +6,7 @@ import NavigationButton from "../shared/NavigationButton";
 const MyInfo = () => {
   return (
     <div className="relative w-fit cursor-pointer">
-      <div className="grid grid-cols-2 gap-4 justify-center items-center bg-gradient-to-r from-gray-700 to-gray-900 w-fit p-4 md:p-8 lg:p-12 rounded-2xl">
+      <div className="grid grid-cols-2 gap-4 justify-center items-center bg-gradient-to-r from-[#262626] to-[#151515] w-fit p-4 md:p-8 lg:p-12 rounded-2xl">
         <div>
           <Image
             className="rounded-2xl bg-gradient-to-b from-slate-600 to-white  border border-white"
