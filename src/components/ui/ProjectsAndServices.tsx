@@ -1,49 +1,53 @@
 import Image from "next/image";
-import projectsPhoto from "../../assects/Business 1.png";
+import projectsPhoto from "../../assects/projects.png";
+import servicesPhoto from "../../assects/services.webp";
 import NavigationButton from "../shared/NavigationButton";
+import Cart from "./Cart";
 
 const ProjectsAndServices = () => {
   return (
-    <div className="space-y-12 ">
-      <div className="border p-2 rounded-full bg-gradient-to-r from-[#262626] to-[#151515]">
+    <div className="space-y-4 md:space-y-12 md:flex md:flex-col justify-between">
+      <div className=" p-2 rounded-full bg-gradient-to-r from-[#262626] to-[#151515]">
         <marquee>
-          LATEST WORK AND FEATURED POWERFULL AND SECURE APPLICATION LATEST WORK
-          AND FEATURED LATEST WORK AND FEATURED
+          <ul className="flex gap-12 list-disc text-sm">
+            <li> LATEST WORK AND FEATURED</li>
+            <li>POWERFULL AND SECURE APPLICATION</li>
+            <li> LATEST WORK AND FEATURED</li>
+            <li> LATEST WORK AND FEATURED</li>
+          </ul>
         </marquee>
       </div>
-      <div className="rounded-xl flex gap-5 h-[70%]">
-        <div className="cursor-pointer relative p-4 w-1/2 bg-gradient-to-r from-[#262626] to-[#151515] rounded-xl">
+      <div className="rounded-xl grid grid-cols-2 gap-5 md:h-full">
+        <Cart>
           <Image
             className="mx-auto"
             src={projectsPhoto}
+            width={200}
+            height={100}
+            alt="projects_image"
+          />
+          <div>
+            <p className="text-xs uppercase font-extralight text-gray-400">
+              Showcase
+            </p>
+            <h3 className="font-semibold text-xl">Projects</h3>
+          </div>
+        </Cart>
+        <Cart>
+          <Image
+            className="mx-auto"
+            src={servicesPhoto}
             width={150}
             height={100}
             alt="projects_image"
           />
-          <p className="text-xs uppercase font-extralight text-gray-400">
-            Showcase
-          </p>
-          <h3 className="font-semibold text-xl">Projects</h3>
-          <div className="absolute right-4 bottom-4">
-            <NavigationButton />
+          <div>
+            <p className="text-xs uppercase font-extralight text-gray-400">
+              Get my servicess
+            </p>
+            <h3 className="font-semibold text-xl">Services</h3>
           </div>
-        </div>
-        <div className="cursor-pointer relative p-4 w-1/2 bg-gradient-to-r from-[#262626] to-[#151515] rounded-xl">
-          <Image
-            className="mx-auto"
-            src={projectsPhoto}
-            width={150}
-            height={100}
-            alt="projects_image"
-          />
-          <p className="text-xs uppercase font-extralight text-gray-400">
-            Get my servicess
-          </p>
-          <h3 className="font-semibold text-xl">Services</h3>
-          <div className="absolute right-4 bottom-4">
-            <NavigationButton />
-          </div>
-        </div>
+        </Cart>
       </div>
     </div>
   );

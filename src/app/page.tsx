@@ -4,17 +4,26 @@ import ContactMe from "@/components/ui/ContactMe";
 import Hero from "@/components/ui/Hero";
 import MyInfo from "@/components/ui/MyInfo";
 import MySkill from "@/components/ui/MySkill";
+import Profiles from "@/components/ui/Profiles";
 import Projects from "@/components/ui/Projects";
 import ProjectsAndServices from "@/components/ui/ProjectsAndServices";
+import SkillsCart from "@/components/ui/SkillsCart";
 
 export default function Home() {
   return (
     <Container>
-      <section className="grid gap-12 grid-cols-1 md:grid-cols-2 p-4">
+      <section className="px-4 py-2 grid gap-5 grid-cols-1 md:grid-cols-2">
         <MyInfo />
         <ProjectsAndServices />
       </section>
-      <section></section>
+      <section className="px-4 py-2 grid gap-5 gird-cols-1 md:grid-cols-7">
+        <div className="md:col-span-2">
+          <Profiles />
+        </div>
+        <div className="md:col-span-3">
+          <SkillsCart />
+        </div>
+      </section>
 
       {/* <Hero />
       <MySkill />

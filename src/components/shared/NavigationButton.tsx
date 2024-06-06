@@ -1,16 +1,11 @@
 import Image from "next/image";
 import navigationBtn from "../../assects/NavigationBtn.svg";
+import { IoArrowForwardCircleOutline } from "react-icons/io5";
 
 const NavigationButton = () => {
   return (
     <div>
-      <Image
-        className=""
-        src={navigationBtn}
-        height={50}
-        width={50}
-        alt="navigation_btn"
-      />
+      <IoArrowForwardCircleOutline className="w-8 h-8 text-gray-400 hover:text-white" />
     </div>
   );
 };
