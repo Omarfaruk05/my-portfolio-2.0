@@ -1,7 +1,6 @@
 import Image from "next/image";
 import projectsPhoto from "../../assects/projects.png";
 import servicesPhoto from "../../assects/services.webp";
-import NavigationButton from "../shared/NavigationButton";
 import Cart from "./Cart";
 
 const ProjectsAndServices = () => {
@@ -22,7 +21,7 @@ const ProjectsAndServices = () => {
           <Image
             className="mx-auto"
             src={projectsPhoto}
-            width={200}
+            width={230}
             height={100}
             alt="projects_image"
           />

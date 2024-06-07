@@ -1,6 +1,7 @@
 import Container from "@/components/shared/Container";
 import About from "@/components/ui/About";
 import ContactMe from "@/components/ui/ContactMe";
+import CredentialsCart from "@/components/ui/CredentialsCart";
 import Hero from "@/components/ui/Hero";
 import MyInfo from "@/components/ui/MyInfo";
 import MySkill from "@/components/ui/MySkill";
@@ -22,6 +23,9 @@ export default function Home() {
         </div>
         <div className="md:col-span-3">
           <SkillsCart />
+        </div>
+        <div className="md:col-span-2">
+          <CredentialsCart />
         </div>
       </section>
 
