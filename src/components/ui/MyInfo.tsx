@@ -1,7 +1,5 @@
-import Container from "../shared/Container";
 import myPhoto from "../../assects/profile1.png";
 import Image from "next/image";
-import NavigationButton from "../shared/NavigationButton";
 import Cart from "./Cart";
 
 const MyInfo = () => {
@@ -11,7 +9,7 @@ const MyInfo = () => {
         <div className="grid gird-cols-1 md:grid-cols-2 gap-3 items-center">
           <div className="lg:p-8">
             <Image
-              className="rounded-2xl w-full bg-gradient-to-b from-slate-600 to-white "
+              className="border border-gray-400 rounded-2xl w-full bg-gradient-to-b from-slate-600 to-white "
               src={myPhoto}
               width={200}
               height={200}

@@ -1,5 +1,5 @@
 import Cart from "./Cart";
-import Skills from "./Skills";
+import Skills from "../shared/Skills";
 
 const SkillsCart = () => {
   return (

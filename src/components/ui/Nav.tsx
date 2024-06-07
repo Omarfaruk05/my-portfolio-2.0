@@ -25,7 +25,7 @@ const Nav = () => {
             rel="noopener noreferrer"
             download
           >
-            <button className="flex items-center hover:text-white gap-2 transition duration-300 mx-2 px-4 hover:text-[#050C13] rounded-sm py-1 bg-gradient-to-r from-[#5FBCFF] to-[#A471FB]">
+            <button className="hidden md:flex items-center text-black hover:text-white gap-2 transition duration-300 mx-2 px-4 rounded-sm py-1 bg-gradient-to-r from-[#5FBCFF] to-[#A471FB]">
               <MdOutlineCloudDownload size={20} /> Resume
             </button>{" "}
           </a>

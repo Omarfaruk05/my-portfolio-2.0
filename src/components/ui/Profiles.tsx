@@ -1,6 +1,6 @@
 import Container from "../shared/Container";
 import Cart from "./Cart";
-import Links from "./Links";
+import Links from "../shared/Links";
 
 const Profiles = () => {
   return (

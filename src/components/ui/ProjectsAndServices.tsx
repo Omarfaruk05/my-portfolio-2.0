@@ -6,15 +6,15 @@ import Cart from "./Cart";
 const ProjectsAndServices = () => {
   return (
     <div className="space-y-4 md:space-y-12 md:flex md:flex-col justify-between">
-      <div className=" p-2 rounded-full bg-gradient-to-r from-[#262626] to-[#151515]">
-        <marquee>
+      <div className=" p-6 rounded-full border border-gray-700 bg-gradient-to-r from-[#262626] to-[#151515]">
+        {/* <marquee>
           <ul className="flex gap-12 list-disc text-sm">
             <li> LATEST WORK AND FEATURED</li>
             <li>POWERFULL AND SECURE APPLICATION</li>
             <li> LATEST WORK AND FEATURED</li>
             <li> LATEST WORK AND FEATURED</li>
           </ul>
-        </marquee>
+        </marquee> */}
       </div>
       <div className="rounded-xl grid grid-cols-2 gap-5 md:h-full">
         <Cart>
