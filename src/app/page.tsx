@@ -9,6 +9,8 @@ import Profiles from "@/components/ui/Profiles";
 import Projects from "@/components/ui/Projects";
 import ProjectsAndServices from "@/components/ui/ProjectsAndServices";
 import SkillsCart from "@/components/ui/SkillsCart";
+import SkillsChart from "@/components/ui/SkillsChart";
+import TalkTogether from "@/components/ui/TalkTogether";
 
 export default function Home() {
   return (
@@ -27,6 +29,10 @@ export default function Home() {
         <div className="md:col-span-2">
           <CredentialsCart />
         </div>
+      </section>
+      <section className="px-4 py-2 grid gap-5 grid-cols-1 md:grid-cols-2">
+        <TalkTogether />
+        <SkillsChart />
       </section>
 
       {/* <Hero />
