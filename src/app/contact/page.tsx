@@ -7,8 +7,8 @@ import { FaPhone, FaLocationDot } from "react-icons/fa6";
 const ContactPage = () => {
   return (
     <Container>
-      <div className="grid grid-cols-1 md:grid-cols-5 gap-14 justify-between my-4  lg:px-12">
-        <div className="col-span-2 mt-4 space-y-12">
+      <div className="grid grid-cols-1 md:grid-cols-5 gap-14 justify-center md:justify-between my-12 px-2 lg:px-12">
+        <div className="md:col-span-2 mt-4 space-y-12">
           <h2 className="text-xl uppercase font-semibold">Contact Me</h2>
           <div className="pt-4 space-y-5">
             <div className="flex gap-5">
@@ -39,11 +39,11 @@ const ContactPage = () => {
               </div>
             </div>
           </div>
-          <div className="">
+          <div>
             <Profiles />
           </div>
         </div>
-        <div className="col-span-3 mt-4 space-y-3">
+        <div className="md:col-span-3 mt-4 space-y-3">
           <Mail />
         </div>
       </div>
