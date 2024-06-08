@@ -26,7 +26,7 @@ const Skills = () => {
         <h5>Typescript</h5>
       </div>
       <div className="px-2 py-1 flex items-center gap-2 border border-gray-700 rounded-full hover:bg-gradient-to-r from-[#5FBCFF] to-[#A471FB] hover:text-black">
-        <FaReact className="rounded-sm bg-white text-black" width={40} />
+        <FaReact className="animate-spin rounded-sm  text-white" width={40} />
         <h5>React.JS</h5>
       </div>
       <div className="px-2 py-1 flex items-center gap-2 border border-gray-700 rounded-full hover:bg-gradient-to-r from-[#5FBCFF] to-[#A471FB] hover:text-black">
