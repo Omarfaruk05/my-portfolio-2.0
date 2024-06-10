@@ -5,7 +5,9 @@ const Nav = () => {
   return (
     <div className="backdrop-blur-lg fixed w-full top-0 z-30">
       <div className=" max-w-7xl mx-auto px-4 flex justify-center sm:justify-between items-center py-4">
-        <h2 className="text-lg font-semibold hidden sm:block">OMAR FARUK</h2>
+        <h2 className="text-lg font-semibold hidden sm:block">
+          MD. OMAR FARUK
+        </h2>
 
         <ul className="flex gap-1 items-center list-none text-gray-500">
           <Link
