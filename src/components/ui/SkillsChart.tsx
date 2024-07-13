@@ -57,7 +57,7 @@ const SkillsChart = () => {
   ];
   return (
     <Cart>
-      <div className="w-96 h-96 mx-auto">
+      <div className="md:w-96 md:h-96 mx-auto">
         <PolarArea
           data={{
             labels: data?.map((data) => data.label),
