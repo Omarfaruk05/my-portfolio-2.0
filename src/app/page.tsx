@@ -1,12 +1,8 @@
 import Container from "@/components/shared/Container";
-import About from "@/components/ui/About";
-import ContactMe from "@/components/ui/ContactMe";
+import Cart from "@/components/ui/Cart";
 import CredentialsCart from "@/components/ui/CredentialsCart";
-import Hero from "@/components/ui/Hero";
 import MyInfo from "@/components/ui/MyInfo";
-import MySkill from "@/components/ui/MySkill";
 import Profiles from "@/components/ui/Profiles";
-import Projects from "@/components/ui/Projects";
 import ProjectsAndServices from "@/components/ui/ProjectsAndServices";
 import SkillsCart from "@/components/ui/SkillsCart";
 import SkillsChart from "@/components/ui/SkillsChart";
@@ -31,7 +27,14 @@ export default function Home() {
         </div>
       </section>
       <section className="px-4 py-2 grid gap-5 grid-cols-1 md:grid-cols-2">
-        <TalkTogether />
+        <div className="flex flex-col gap-4">
+          <TalkTogether />
+          <Cart>
+            <h2 className="text-4xl font-semibold  flex items-center">
+              THANKS FOR VISITING
+            </h2>
+          </Cart>
+        </div>
         <SkillsChart />
       </section>
 

@@ -16,11 +16,6 @@ const TalkTogether = () => {
           </h1>
         </div>
       </Cart>
-      <Cart>
-        <h2 className="text-4xl font-semibold  flex items-center">
-          THANKS FOR VISITING
-        </h2>
-      </Cart>
     </div>
   );
 };
