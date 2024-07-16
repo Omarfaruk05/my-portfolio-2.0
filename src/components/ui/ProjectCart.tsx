@@ -13,7 +13,7 @@ import {
   SiJsonwebtokens,
 } from "react-icons/si";
 
-const ProjectCart = () => {
+const ProjectCart = ({ project }: any) => {
   return (
     <Cart>
       <div className=" space-y-3 max-w-[250px]">
@@ -28,9 +28,9 @@ const ProjectCart = () => {
         </div>
         <div className="space-y-2">
           <p className="text-gray-500 uppercase">
-            TOYS PRODUCTS TYPES WEBSITE USING MERN STACK
+            {project?.description}
           </p>
-          <h2 className="text-3xl font-semibold ">RentNest</h2>
+          <h2 className="text-2xl font-semibold ">{project?.name}</h2>
         </div>
         <div className="flex flex-wrap gap-[2px]">
           <div className="p-1 rounded-md border-gray-500 border w-fit">

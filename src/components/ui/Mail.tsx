@@ -1,8 +1,36 @@
+"use client"
+
 import Image from "next/image";
 import Star from "../../assects/star.png";
 import Cart from "./Cart";
 
 const Mail = () => {
+  const handleMessageSubmit = async (event: any) => {
+    event.preventDefault()
+    // const name = e.target.name.value;
+    // const email = e.target.email.value;
+    // const subject = e.target.subject.value;
+    // const body = e.target.body.value;
+    const formData = new FormData(event.target);
+    // try {
+    //   const response = await fetch('/api/contact', {
+    //     method: "POST",
+    //     body: formData
+    //   });
+
+    //   if (!response.ok) {
+    //     console.log('Falling Over')
+    //     throw new Error(`Response Status: ${response.status}`)
+    //   };
+
+    //   const responseData = await response.json();
+    //   console.log(responseData['message']);
+
+    // } catch (error) {
+    //   console.error(error)
+    //   alert('Error, Please try resubmitting the form.');
+    // }
+  }
   return (
     <Cart>
       <div className="p-4 relative">
@@ -19,7 +47,7 @@ const Mail = () => {
           />
         </div>
         <div>
-          <form className="space-y-2 my-4">
+          <form onSubmit={handleMessageSubmit} className="space-y-2 my-4">
             <input
               className="p-4 block w-full rounded-lg focus:outline-dashed focus:outline-gray-600 bg-gradient-to-l from-[#262626] to-[#151515]"
               type="text"
@@ -44,7 +72,7 @@ const Mail = () => {
             <textarea
               className="p-4 block w-full min-h-[150px] rounded-lg focus:outline-dashed focus:outline-gray-600 bg-gradient-to-l from-[#262626] to-[#151515]"
               name="body"
-              id="bode"
+              id="body"
               placeholder="Message"
             />
             <input
