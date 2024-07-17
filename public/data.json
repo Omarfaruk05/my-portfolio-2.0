@@ -7,79 +7,136 @@
     "address": "Gazipur, Dhaka, Bangladesh.",
     "projects": [
         {
-            "name": "RentHouse",
-            "images": [],
+            "name": "Rent Nest",
+            "images": [
+                "https://i.ibb.co/YZJnn41/rentNest.png"
+            ],
             "description": "TOYS PRODUCTS TYPES WEBSITE USING MERN STACK",
             "technologies": [],
-            "liveLinks": "",
+            "liveLink": "https://property-beta-three.vercel.app",
             "githubLinks": [
                 {
-                    "frontend": "",
+                    "frontend": "https://github.com/Omarfaruk05/rent-nest-frontend",
+                    "backend": "https://github.com/Omarfaruk05/rent-nest-backend"
+                }
+            ]
+        },
+        {
+            "name": "E Mart",
+            "images": [
+                "https://i.ibb.co/B37F7P0/eMart.png"
+            ],
+            "description": "TOYS PRODUCTS TYPES WEBSITE USING MERN STACK",
+            "technologies": [],
+            "liveLink": "https://heartfelt-tiramisu-5729e5.netlify.app",
+            "githubLinks": [
+                {
+                    "frontend": "https://github.com/Omarfaruk05/e-mart-client",
+                    "backend": "https://github.com/Omarfaruk05/e-mart-server"
+                }
+            ]
+        },
+        {
+            "name": "Dev Quiz",
+            "images": [
+                "https://i.ibb.co/GWSNBGp/Screenshot-2024-07-17-005622.png"
+            ],
+            "description": "TOYS PRODUCTS TYPES WEBSITE USING MERN STACK",
+            "technologies": [],
+            "liveLink": "https://dev-quiz-frontend.vercel.app",
+            "githubLinks": [
+                {
+                    "frontend": "https://github.com/Omarfaruk05/dev-quiz-frontend",
+                    "backend": "https://github.com/Omarfaruk05/dev-quiz-backend"
+                }
+            ]
+        },
+        {
+            "name": "Book Haven",
+            "images": [
+                "https://i.ibb.co/dKGsw0y/book-Haven.png"
+            ],
+            "description": "TOYS PRODUCTS TYPES WEBSITE USING MERN STACK",
+            "technologies": [],
+            "liveLink": "https://book-haven-1335e.web.app",
+            "githubLinks": [
+                {
+                    "frontend": "https://github.com/Omarfaruk05/book-haven-frontend",
+                    "backend": "https://github.com/Omarfaruk05/book-haven-backend"
+                }
+            ]
+        },
+        {
+            "name": "Create User",
+            "images": [
+                "https://i.ibb.co/kH7Dr34/create-User-Steps.png"
+            ],
+            "description": "TOYS PRODUCTS TYPES WEBSITE USING MERN STACK",
+            "technologies": [],
+            "liveLink": "https://create-user-steps-frontend.vercel.app",
+            "githubLinks": [
+                {
+                    "frontend": "https://github.com/Omarfaruk05/profile-create-steps",
+                    "backend": "https://github.com/Omarfaruk05/profile-create-steps-backend"
+                }
+            ]
+        },
+        {
+            "name": "Friendly",
+            "images": [
+                "https://i.ibb.co/jyJ6NCQ/Screenshot-2024-07-17-010431.png"
+            ],
+            "description": "TOYS PRODUCTS TYPES WEBSITE USING MERN STACK",
+            "technologies": [],
+            "liveLink": "https://friendly-blond.vercel.app/",
+            "githubLinks": [
+                {
+                    "frontend": "https://github.com/Omarfaruk05/friendly",
                     "backend": ""
                 }
             ]
         },
         {
-            "name": "RentHouse",
-            "images": [],
+            "name": "Cinema",
+            "images": [
+                "https://i.ibb.co/T4YjMyw/Screenshot-2024-07-17-010416.png"
+            ],
             "description": "TOYS PRODUCTS TYPES WEBSITE USING MERN STACK",
             "technologies": [],
-            "liveLinks": "",
+            "liveLink": "https://cinema-blush.vercel.app",
             "githubLinks": [
                 {
-                    "frontend": "",
+                    "frontend": "https://github.com/Omarfaruk05/Cinema",
                     "backend": ""
                 }
             ]
         },
         {
-            "name": "RentHouse",
-            "images": [],
+            "name": "Next Jwellery",
+            "images": [
+                "https://i.ibb.co/6BM5qCx/Screenshot-2024-07-17-004749.png"
+            ],
             "description": "TOYS PRODUCTS TYPES WEBSITE USING MERN STACK",
             "technologies": [],
-            "liveLinks": "",
+            "liveLink": "https://next-jewellery.vercel.app",
             "githubLinks": [
                 {
-                    "frontend": "",
+                    "frontend": "https://github.com/Omarfaruk05/Next-Jewellery",
                     "backend": ""
                 }
             ]
         },
         {
-            "name": "RentHouse",
-            "images": [],
+            "name": "Work Flow",
+            "images": [
+                "https://i.ibb.co/RNfPBxL/Screenshot-2024-07-17-004717.png"
+            ],
             "description": "TOYS PRODUCTS TYPES WEBSITE USING MERN STACK",
             "technologies": [],
-            "liveLinks": "",
+            "liveLink": "https://workflow-react-flow.vercel.app",
             "githubLinks": [
                 {
-                    "frontend": "",
-                    "backend": ""
-                }
-            ]
-        },
-        {
-            "name": "RentHouse",
-            "images": [],
-            "description": "TOYS PRODUCTS TYPES WEBSITE USING MERN STACK",
-            "technologies": [],
-            "liveLinks": "",
-            "githubLinks": [
-                {
-                    "frontend": "",
-                    "backend": ""
-                }
-            ]
-        },
-        {
-            "name": "RentHouse",
-            "images": [],
-            "description": "TOYS PRODUCTS TYPES WEBSITE USING MERN STACK",
-            "technologies": [],
-            "liveLinks": "",
-            "githubLinks": [
-                {
-                    "frontend": "",
+                    "frontend": "https://github.com/Omarfaruk05/workflow-react-flow",
                     "backend": ""
                 }
             ]

@@ -7,7 +7,7 @@ const ProjectsPage = async () => {
 
   const user = await getLocalData('data.json');
 
-  console.log(user)
+
   return (
     <Container>
       <div className="mt-8 mx-4 space-y-12">

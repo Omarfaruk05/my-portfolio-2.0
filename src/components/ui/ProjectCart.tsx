@@ -20,7 +20,7 @@ const ProjectCart = ({ project }: any) => {
         <div className="flex justify-center">
           <Image
             className="w-full rounded-lg"
-            src={projectImg}
+            src={project?.images[0]}
             width={200}
             height={150}
             alt="project_photo"
