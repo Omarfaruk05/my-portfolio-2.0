@@ -1,7 +1,6 @@
 import Image from "next/image";
-import projectImg from "../../assects/projects/rent-nest.png";
 import Cart from "./Cart";
-import { FaReact, FaNodeJs } from "react-icons/fa";
+import { FaReact, FaNodeJs, FaGithub, } from "react-icons/fa";
 import { RiNextjsFill, RiTailwindCssFill } from "react-icons/ri";
 import {
   SiMongodb,
@@ -12,6 +11,8 @@ import {
   SiBootstrap,
   SiJsonwebtokens,
 } from "react-icons/si";
+import { CgMediaLive } from "react-icons/cg";
+
 
 const ProjectCart = ({ project }: any) => {
   return (
@@ -37,6 +38,9 @@ const ProjectCart = ({ project }: any) => {
             <RiNextjsFill className=" text-white w-6 h-6" />
           </div>
           <div className="p-1 rounded-md border-gray-500 border w-fit">
+            <SiTypescript className=" text-white w-6 h-6" />
+          </div>
+          <div className="p-1 rounded-md border-gray-500 border w-fit">
             <RiTailwindCssFill className="text-sky-500 w-6 h-6" />
           </div>
           <div className="p-1 rounded-md border-gray-500 border w-fit">
@@ -52,6 +56,28 @@ const ProjectCart = ({ project }: any) => {
           <div className="p-1 rounded-md border-gray-500 border w-fit">
             <SiMongodb className="text-green-500 w-6 h-6" />
           </div>
+        </div>
+
+        <div className="flex gap-2 text-sm py-2">
+          <a
+            href={project?.liveLink} target="_blank"
+            className="flex items-center  gap-1 hover:outline-dashed hover:text-white outline-[1px] tranistion-all transform ease-in-out duration-300 rounded-sm p-[1px]"
+          >
+            <span><CgMediaLive className="text-red-500" /></span>  <span>Live</span>
+          </a>
+          <a
+            href={project?.githubLinks.frontend} target="_blank"
+            className="flex items-center  gap-1 hover:outline-dashed hover:text-white outline-[1px] tranistion-all transform ease-in-out duration-300 rounded-sm p-[1px]"
+          >
+            <span><FaGithub /></span>  <span>Frontend</span>
+          </a>
+          <a
+            href={project?.liveLink} target="_blank"
+            className="flex items-center  gap-1 hover:outline-dashed hover:text-white outline-[1px] tranistion-all transform ease-in-out duration-300 rounded-sm p-[1px]"
+          >
+            <span><FaGithub /></span>  <span>Backend</span>
+          </a>
+
         </div>
       </div>
     </Cart>

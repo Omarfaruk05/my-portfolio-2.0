@@ -18,14 +18,14 @@ const ProjectsPage = async () => {
           ))}
         </div>
       </div>
-      <div className="my-8 mx-4 space-y-12">
+      {/* <div className="my-8 mx-4 space-y-12">
         <h1 className="text-4xl font-semibold uppercase">Mobile App</h1>
         <div className="flex flex-wrap justify-center lg:justify-start gap-5">
           {user.projects && user.projects.map((project: any, index: number) => (
             <ProjectCart project={project} key={index} />
           ))}
         </div>
-      </div>
+      </div> */}
     </Container>
   );
 };

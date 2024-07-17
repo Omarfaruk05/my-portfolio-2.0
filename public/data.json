@@ -14,12 +14,10 @@
             "description": "TOYS PRODUCTS TYPES WEBSITE USING MERN STACK",
             "technologies": [],
             "liveLink": "https://property-beta-three.vercel.app",
-            "githubLinks": [
-                {
-                    "frontend": "https://github.com/Omarfaruk05/rent-nest-frontend",
-                    "backend": "https://github.com/Omarfaruk05/rent-nest-backend"
-                }
-            ]
+            "githubLinks": {
+                "frontend": "https://github.com/Omarfaruk05/rent-nest-frontend",
+                "backend": "https://github.com/Omarfaruk05/rent-nest-backend"
+            }
         },
         {
             "name": "E Mart",
@@ -29,12 +27,10 @@
             "description": "TOYS PRODUCTS TYPES WEBSITE USING MERN STACK",
             "technologies": [],
             "liveLink": "https://heartfelt-tiramisu-5729e5.netlify.app",
-            "githubLinks": [
-                {
-                    "frontend": "https://github.com/Omarfaruk05/e-mart-client",
-                    "backend": "https://github.com/Omarfaruk05/e-mart-server"
-                }
-            ]
+            "githubLinks": {
+                "frontend": "https://github.com/Omarfaruk05/e-mart-client",
+                "backend": "https://github.com/Omarfaruk05/e-mart-server"
+            }
         },
         {
             "name": "Dev Quiz",
@@ -44,12 +40,10 @@
             "description": "TOYS PRODUCTS TYPES WEBSITE USING MERN STACK",
             "technologies": [],
             "liveLink": "https://dev-quiz-frontend.vercel.app",
-            "githubLinks": [
-                {
-                    "frontend": "https://github.com/Omarfaruk05/dev-quiz-frontend",
-                    "backend": "https://github.com/Omarfaruk05/dev-quiz-backend"
-                }
-            ]
+            "githubLinks": {
+                "frontend": "https://github.com/Omarfaruk05/dev-quiz-frontend",
+                "backend": "https://github.com/Omarfaruk05/dev-quiz-backend"
+            }
         },
         {
             "name": "Book Haven",
@@ -59,12 +53,10 @@
             "description": "TOYS PRODUCTS TYPES WEBSITE USING MERN STACK",
             "technologies": [],
             "liveLink": "https://book-haven-1335e.web.app",
-            "githubLinks": [
-                {
-                    "frontend": "https://github.com/Omarfaruk05/book-haven-frontend",
-                    "backend": "https://github.com/Omarfaruk05/book-haven-backend"
-                }
-            ]
+            "githubLinks": {
+                "frontend": "https://github.com/Omarfaruk05/book-haven-frontend",
+                "backend": "https://github.com/Omarfaruk05/book-haven-backend"
+            }
         },
         {
             "name": "Create User",
@@ -74,12 +66,10 @@
             "description": "TOYS PRODUCTS TYPES WEBSITE USING MERN STACK",
             "technologies": [],
             "liveLink": "https://create-user-steps-frontend.vercel.app",
-            "githubLinks": [
-                {
-                    "frontend": "https://github.com/Omarfaruk05/profile-create-steps",
-                    "backend": "https://github.com/Omarfaruk05/profile-create-steps-backend"
-                }
-            ]
+            "githubLinks": {
+                "frontend": "https://github.com/Omarfaruk05/profile-create-steps",
+                "backend": "https://github.com/Omarfaruk05/profile-create-steps-backend"
+            }
         },
         {
             "name": "Friendly",
@@ -89,12 +79,10 @@
             "description": "TOYS PRODUCTS TYPES WEBSITE USING MERN STACK",
             "technologies": [],
             "liveLink": "https://friendly-blond.vercel.app/",
-            "githubLinks": [
-                {
-                    "frontend": "https://github.com/Omarfaruk05/friendly",
-                    "backend": ""
-                }
-            ]
+            "githubLinks": {
+                "frontend": "https://github.com/Omarfaruk05/friendly",
+                "backend": ""
+            }
         },
         {
             "name": "Cinema",
@@ -104,12 +92,10 @@
             "description": "TOYS PRODUCTS TYPES WEBSITE USING MERN STACK",
             "technologies": [],
             "liveLink": "https://cinema-blush.vercel.app",
-            "githubLinks": [
-                {
-                    "frontend": "https://github.com/Omarfaruk05/Cinema",
-                    "backend": ""
-                }
-            ]
+            "githubLinks": {
+                "frontend": "https://github.com/Omarfaruk05/Cinema",
+                "backend": ""
+            }
         },
         {
             "name": "Next Jwellery",
@@ -119,12 +105,10 @@
             "description": "TOYS PRODUCTS TYPES WEBSITE USING MERN STACK",
             "technologies": [],
             "liveLink": "https://next-jewellery.vercel.app",
-            "githubLinks": [
-                {
-                    "frontend": "https://github.com/Omarfaruk05/Next-Jewellery",
-                    "backend": ""
-                }
-            ]
+            "githubLinks": {
+                "frontend": "https://github.com/Omarfaruk05/Next-Jewellery",
+                "backend": ""
+            }
         },
         {
             "name": "Work Flow",
@@ -134,12 +118,10 @@
             "description": "TOYS PRODUCTS TYPES WEBSITE USING MERN STACK",
             "technologies": [],
             "liveLink": "https://workflow-react-flow.vercel.app",
-            "githubLinks": [
-                {
-                    "frontend": "https://github.com/Omarfaruk05/workflow-react-flow",
-                    "backend": ""
-                }
-            ]
+            "githubLinks": {
+                "frontend": "https://github.com/Omarfaruk05/workflow-react-flow",
+                "backend": ""
+            }
         }
     ]
 }
