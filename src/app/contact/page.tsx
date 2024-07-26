@@ -26,7 +26,7 @@ const ContactPage = () => {
               </div>
               <div>
                 <p className=" font-semibold">Phone</p>
-                <p className="text-gray-400">+880156900262</p>
+                <p className="text-gray-400">+880156900262 , +8801941221528</p>
               </div>
             </div>
             <div className="flex gap-5">

@@ -37,16 +37,16 @@ const AboutPage = () => {
           <div>
             <h1 className="text-3xl font-semibold uppercase">About Me</h1>
             <div className="text-gray-400 space-y-3 my-8">
-              <p>Hi, I’m Nur Uddin, a full-stack web application developer with a passion for creating dynamic and user-friendly web applications. </p>
+              <p>Hi, I’m Omar Faruk, a full-stack web application developer with a passion for creating dynamic and user-friendly web applications. </p>
               <p> My Hobby I'm passionate about coding and constantly expending my knowledge learning new things.</p>
               <p>I enjoy learning new skills and exploring new challenges in the field of web development. I’m always open to new opportunities and collaborations.</p>
             </div>
           </div>
           <div>
-          <SkillsCart/>
+            <SkillsCart />
           </div>
           <div>
-            <TalkTogether/>
+            <TalkTogether />
           </div>
         </div>
       </div>
