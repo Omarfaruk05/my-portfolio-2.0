@@ -17,7 +17,7 @@ const ProjectsAndServices = () => {
         </marquee> */}
       </div>
       <div className="rounded-xl grid grid-cols-2 gap-5 md:h-full">
-        <Cart>
+        <Cart path="/projects">
           <Image
             className="mx-auto"
             src={projectsPhoto}
@@ -32,7 +32,7 @@ const ProjectsAndServices = () => {
             <h3 className="font-semibold text-xl">Projects</h3>
           </div>
         </Cart>
-        <Cart>
+        <Cart path="services">
           <Image
             className="mx-auto"
             src={servicesPhoto}

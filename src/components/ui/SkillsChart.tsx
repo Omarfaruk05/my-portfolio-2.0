@@ -56,7 +56,7 @@ const SkillsChart = () => {
     },
   ];
   return (
-    <Cart>
+    <Cart path="/about">
       <div className="md:w-96 md:h-96 mx-auto">
         <PolarArea
           data={{

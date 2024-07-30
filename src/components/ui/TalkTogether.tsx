@@ -5,7 +5,7 @@ import Image from "next/image";
 const TalkTogether = () => {
   return (
     <div className="flex flex-col gap-4">
-      <Cart>
+      <Cart path="/contact">
         <div className="px-4 -mt-4">
           <Image src={Star} width={50} height={50} alt="star" />
         </div>

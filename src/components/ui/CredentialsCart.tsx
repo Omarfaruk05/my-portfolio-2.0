@@ -4,7 +4,7 @@ import Image from "next/image";
 
 const CredentialsCart = () => {
   return (
-    <Cart>
+    <Cart path="/about">
       <div>
         <Image
           className="mx-auto"

@@ -10,7 +10,7 @@ const AboutPage = () => {
     <Container>
       <div className="grid grid-cols-1 md:grid-cols-5 gap-8 md:my-8">
         <div className="mx-auto text-center md:col-span-2">
-          <Cart>
+          <Cart path="/path">
             <div className="md:m-2 lg:m-6">
               <Image
                 className="border border-gray-400 rounded-2xl w-full bg-gradient-to-b from-slate-600 to-white "

@@ -3,7 +3,7 @@ import Skills from "../shared/Skills";
 
 const SkillsCart = () => {
   return (
-    <Cart>
+    <Cart path="/about">
       <div>
         <Skills />
       </div>

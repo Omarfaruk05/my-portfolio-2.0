@@ -16,14 +16,14 @@ import { CgMediaLive } from "react-icons/cg";
 
 const ProjectCart = ({ project }: any) => {
   return (
-    <Cart>
+    <Cart path={project?.liveLink}>
       <div className=" space-y-3 max-w-[250px]">
         <div className="flex justify-center">
           <Image
             className="w-full rounded-lg"
             src={project?.images[0]}
             width={200}
-            height={150}
+            height={100}
             alt="project_photo"
           />
         </div>

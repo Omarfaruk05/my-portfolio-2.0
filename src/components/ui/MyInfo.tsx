@@ -5,7 +5,7 @@ import Cart from "./Cart";
 const MyInfo = () => {
   return (
     <div className="relative w-fit cursor-pointer">
-      <Cart>
+      <Cart path="/about">
         <div className="grid gird-cols-1 md:grid-cols-2 gap-3 items-center">
           <div className="lg:p-8">
             <Image

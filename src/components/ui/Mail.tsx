@@ -32,7 +32,7 @@ const Mail = () => {
     // }
   }
   return (
-    <Cart>
+    <Cart path="/contact">
       <div className="p-4 relative">
         <div>
           <h1 className="text-4xl font-semibold mb-8">

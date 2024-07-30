@@ -4,7 +4,7 @@ import Links from "../shared/Links";
 
 const Profiles = () => {
   return (
-    <Cart>
+    <Cart path="/about">
       <div className="border border-gray-700 bg-gradient-to-l from-[#262626] to-[#151515] p-7 rounded-xl flex justify-center items-center w-full">
         <Links />
       </div>

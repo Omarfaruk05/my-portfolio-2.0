@@ -29,7 +29,7 @@ export default function Home() {
       <section className="px-4 py-2 grid gap-5 grid-cols-1 md:grid-cols-2">
         <div className="flex flex-col gap-4">
           <TalkTogether />
-          <Cart>
+          <Cart path="/contact">
             <h2 className="text-4xl font-semibold  flex items-center">
               THANKS FOR VISITING
             </h2>
