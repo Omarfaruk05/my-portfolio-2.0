@@ -1,4 +1,4 @@
-"use client"
+"use client";
 
 import Image from "next/image";
 import Star from "../../assects/star.png";
@@ -6,7 +6,7 @@ import Cart from "./Cart";
 
 const Mail = () => {
   const handleMessageSubmit = async (event: any) => {
-    event.preventDefault()
+    event.preventDefault();
     // const name = e.target.name.value;
     // const email = e.target.email.value;
     // const subject = e.target.subject.value;
@@ -30,7 +30,7 @@ const Mail = () => {
     //   console.error(error)
     //   alert('Error, Please try resubmitting the form.');
     // }
-  }
+  };
   return (
     <Cart path="/contact">
       <div className="p-4 relative">
