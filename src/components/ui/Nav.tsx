@@ -5,7 +5,7 @@ const Nav = () => {
   return (
     <div className="backdrop-blur-lg fixed w-full top-0 z-30">
       <div className=" max-w-7xl mx-auto px-4 flex justify-center sm:justify-between items-center py-4">
-        <Link href={'/'} className="text-lg font-semibold hidden sm:block">
+        <Link href={"/"} className="text-lg font-semibold hidden sm:block">
           MD. OMAR FARUK
         </Link>
 
@@ -35,7 +35,7 @@ const Nav = () => {
             Contact
           </Link>
           <a
-            href={"/Omar-Faruk-Resume-Full-Stack.pdf"}
+            href={"/omar-faruk-full-stack-one-year-exp.pdf"}
             target="_blank"
             rel="noopener noreferrer"
             download
