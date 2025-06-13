@@ -6,7 +6,7 @@ import SlideIn from "../motions/SlideIn";
 const MyInfo = () => {
   return (
     <SlideIn direction="left">
-      <div className="relative w-fit cursor-pointer">
+      <div className=" w-fit cursor-pointer">
         <Cart path="/about">
           <div className="grid gird-cols-1 md:grid-cols-2 gap-3 items-center">
             <SlideIn direction="top" delay={0.2} className="lg:p-8">
@@ -19,7 +19,7 @@ const MyInfo = () => {
               />
             </SlideIn>
             <SlideIn direction="right" delay={0.4} className="space-y-3">
-              <h5 className="uppercase font-extralight text-lg text-gray-400">
+              <h5 className="uppercase text-lg text-gray-400">
                 A Full-Stack Developer
               </h5>
               <h3 className="uppercase text-3xl font-semibold">Omar Faruk</h3>
