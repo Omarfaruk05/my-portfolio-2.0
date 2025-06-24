@@ -7,8 +7,9 @@ import {
   SiExpress,
   SiPrisma,
   SiTypescript,
-  SiBootstrap,
   SiJsonwebtokens,
+  SiNestjs,
+  SiTypeorm,
 } from "react-icons/si";
 import SlideIn from "../motions/SlideIn";
 
@@ -23,7 +24,7 @@ const Skills = () => {
           className="rounded-sm bg-white text-black"
           width={40}
         />
-        <h5>Jsvascript</h5>
+        <h5>Javascript</h5>
       </SlideIn>
       <SlideIn
         delay={0.2}
@@ -41,7 +42,7 @@ const Skills = () => {
         delay={0.4}
         className="flex-1 px-2 py-1 flex justify-center items-center gap-2 border border-gray-700 rounded-full  hover:bg-gradient-to-r from-[#5FBCFF] to-[#A471FB] hover:text-black"
       >
-        <RiNextjsFill className="rounded-sm bg-white text-black" width={40} />
+        <SiNestjs className="rounded-sm bg-white text-black" width={40} />
         <h5>Next.JS</h5>
       </SlideIn>
 
@@ -53,17 +54,16 @@ const Skills = () => {
           className="rounded-sm bg-white text-black"
           width={40}
         />
-        <h5>TailwindCss</h5>
+        <h5>TailwindCSS</h5>
       </SlideIn>
 
       <SlideIn
         delay={0.6}
         className="flex-1 px-2 py-1 flex justify-center items-center gap-2 border border-gray-700 rounded-full  hover:bg-gradient-to-r from-[#5FBCFF] to-[#A471FB] hover:text-black"
       >
-        <SiBootstrap className="rounded-sm bg-white text-black" width={40} />
-        <h5>Bootstrap</h5>
+        <SiTypeorm className="rounded-sm bg-white text-black" width={40} />
+        <h5>TypeORM</h5>
       </SlideIn>
-
       <SlideIn
         delay={0.7}
         className="flex-1 px-2 py-1 flex justify-center items-center gap-2 border border-gray-700 rounded-full  hover:bg-gradient-to-r from-[#5FBCFF] to-[#A471FB] hover:text-black"
@@ -77,7 +77,7 @@ const Skills = () => {
         className="flex-1 px-2 py-1 flex justify-center items-center gap-2 border border-gray-700 rounded-full  hover:bg-gradient-to-r from-[#5FBCFF] to-[#A471FB] hover:text-black"
       >
         <FaNodeJs className="rounded-sm bg-white text-black" width={40} />
-        <h5>Node.JS</h5>
+        <h5>Nest.JS</h5>
       </SlideIn>
 
       <SlideIn

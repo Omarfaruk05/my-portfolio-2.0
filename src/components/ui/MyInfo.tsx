@@ -24,8 +24,9 @@ const MyInfo = () => {
               </h5>
               <h3 className="uppercase text-3xl font-semibold">Omar Faruk</h3>
               <p className="text-gray-400">
-                A MERN Stack & Apps developer with a passion for creating
-                dynamic and user-friendly applications.
+                A full stack developer with years of real-world experience,
+                passionate about building scalable, efficient, and user-friendly
+                solutions.
               </p>
             </SlideIn>
           </div>

@@ -1,127 +1,117 @@
 {
-    "name": "Md. Omar Faruk",
-    "email": [
-        "mdomarfaruk149518@gmail.com",
-        "omarfaruk149518@gmail.com"
-    ],
-    "address": "Gazipur, Dhaka, Bangladesh.",
-    "projects": [
-        {
-            "name": "Rent Nest",
-            "images": [
-                "https://i.ibb.co/YZJnn41/rentNest.png"
-            ],
-            "description": "TOYS PRODUCTS TYPES WEBSITE USING MERN STACK",
-            "technologies": [],
-            "liveLink": "https://property-beta-three.vercel.app",
-            "githubLinks": {
-                "frontend": "https://github.com/Omarfaruk05/rent-nest-frontend",
-                "backend": "https://github.com/Omarfaruk05/rent-nest-backend"
-            }
-        },
-        {
-            "name": "E Mart",
-            "images": [
-                "https://i.ibb.co/B37F7P0/eMart.png"
-            ],
-            "description": "TOYS PRODUCTS TYPES WEBSITE USING MERN STACK",
-            "technologies": [],
-            "liveLink": "https://heartfelt-tiramisu-5729e5.netlify.app",
-            "githubLinks": {
-                "frontend": "https://github.com/Omarfaruk05/e-mart-client",
-                "backend": "https://github.com/Omarfaruk05/e-mart-server"
-            }
-        },
-        {
-            "name": "Dev Quiz",
-            "images": [
-                "https://i.ibb.co/GWSNBGp/Screenshot-2024-07-17-005622.png"
-            ],
-            "description": "TOYS PRODUCTS TYPES WEBSITE USING MERN STACK",
-            "technologies": [],
-            "liveLink": "https://dev-quiz-frontend.vercel.app",
-            "githubLinks": {
-                "frontend": "https://github.com/Omarfaruk05/dev-quiz-frontend",
-                "backend": "https://github.com/Omarfaruk05/dev-quiz-backend"
-            }
-        },
-        {
-            "name": "Book Haven",
-            "images": [
-                "https://i.ibb.co/dKGsw0y/book-Haven.png"
-            ],
-            "description": "TOYS PRODUCTS TYPES WEBSITE USING MERN STACK",
-            "technologies": [],
-            "liveLink": "https://book-haven-1335e.web.app",
-            "githubLinks": {
-                "frontend": "https://github.com/Omarfaruk05/book-haven-frontend",
-                "backend": "https://github.com/Omarfaruk05/book-haven-backend"
-            }
-        },
-        {
-            "name": "Create User",
-            "images": [
-                "https://i.ibb.co/kH7Dr34/create-User-Steps.png"
-            ],
-            "description": "TOYS PRODUCTS TYPES WEBSITE USING MERN STACK",
-            "technologies": [],
-            "liveLink": "https://create-user-steps-frontend.vercel.app",
-            "githubLinks": {
-                "frontend": "https://github.com/Omarfaruk05/profile-create-steps",
-                "backend": "https://github.com/Omarfaruk05/profile-create-steps-backend"
-            }
-        },
-        {
-            "name": "Friendly",
-            "images": [
-                "https://i.ibb.co/jyJ6NCQ/Screenshot-2024-07-17-010431.png"
-            ],
-            "description": "TOYS PRODUCTS TYPES WEBSITE USING MERN STACK",
-            "technologies": [],
-            "liveLink": "https://friendly-blond.vercel.app/",
-            "githubLinks": {
-                "frontend": "https://github.com/Omarfaruk05/friendly",
-                "backend": ""
-            }
-        },
-        {
-            "name": "Cinema",
-            "images": [
-                "https://i.ibb.co/T4YjMyw/Screenshot-2024-07-17-010416.png"
-            ],
-            "description": "TOYS PRODUCTS TYPES WEBSITE USING MERN STACK",
-            "technologies": [],
-            "liveLink": "https://cinema-blush.vercel.app",
-            "githubLinks": {
-                "frontend": "https://github.com/Omarfaruk05/Cinema",
-                "backend": ""
-            }
-        },
-        {
-            "name": "Next Jwellery",
-            "images": [
-                "https://i.ibb.co/6BM5qCx/Screenshot-2024-07-17-004749.png"
-            ],
-            "description": "TOYS PRODUCTS TYPES WEBSITE USING MERN STACK",
-            "technologies": [],
-            "liveLink": "https://next-jewellery.vercel.app",
-            "githubLinks": {
-                "frontend": "https://github.com/Omarfaruk05/Next-Jewellery",
-                "backend": ""
-            }
-        },
-        {
-            "name": "Work Flow",
-            "images": [
-                "https://i.ibb.co/RNfPBxL/Screenshot-2024-07-17-004717.png"
-            ],
-            "description": "TOYS PRODUCTS TYPES WEBSITE USING MERN STACK",
-            "technologies": [],
-            "liveLink": "https://workflow-react-flow.vercel.app",
-            "githubLinks": {
-                "frontend": "https://github.com/Omarfaruk05/workflow-react-flow",
-                "backend": ""
-            }
-        }
-    ]
+  "name": "Md. Omar Faruk",
+  "email": ["mdomarfaruk149518@gmail.com", "omarfaruk149518@gmail.com"],
+  "address": "Gazipur, Dhaka, Bangladesh.",
+  "projects": [
+    {
+      "name": "Rent Nest",
+      "images": ["https://i.ibb.co/YZJnn41/rentNest.png"],
+      "description": "A property rental platform with user-friendly booking and listing features.",
+      "technologies": [],
+      "liveLink": "https://property-beta-three.vercel.app",
+      "githubLinks": {
+        "frontend": "https://github.com/Omarfaruk05/rent-nest-frontend",
+        "backend": "https://github.com/Omarfaruk05/rent-nest-backend"
+      }
+    },
+    {
+      "name": "E Pharma",
+      "images": ["https://i.ibb.co/B5dS36bq/Screenshot-2025-06-24-174549.png"],
+      "description": "An online pharmacy system with product management and order tracking.",
+      "technologies": [],
+      "liveLink": "https://e-pharma-frontend.vercel.app/",
+      "githubLinks": {
+        "frontend": "https://github.com/Omarfaruk05/e-pharma-frontend",
+        "backend": "https://github.com/Omarfaruk05/e-pharma"
+      }
+    },
+    {
+      "name": "E Mart",
+      "images": ["https://i.ibb.co/B37F7P0/eMart.png"],
+      "description": "An e-commerce platform for seamless shopping and order management.",
+      "technologies": [],
+      "liveLink": "https://heartfelt-tiramisu-5729e5.netlify.app",
+      "githubLinks": {
+        "frontend": "https://github.com/Omarfaruk05/e-mart-client",
+        "backend": "https://github.com/Omarfaruk05/e-mart-server"
+      }
+    },
+    {
+      "name": "Dev Quiz",
+      "images": ["https://i.ibb.co/GWSNBGp/Screenshot-2024-07-17-005622.png"],
+      "description": "A quiz app for developers with category-based question sets.",
+      "technologies": [],
+      "liveLink": "https://dev-quiz-frontend.vercel.app",
+      "githubLinks": {
+        "frontend": "https://github.com/Omarfaruk05/dev-quiz-frontend",
+        "backend": "https://github.com/Omarfaruk05/dev-quiz-backend"
+      }
+    },
+    {
+      "name": "Book Haven",
+      "images": ["https://i.ibb.co/dKGsw0y/book-Haven.png"],
+      "description": "An online bookstore to browse, search, and order books.",
+      "technologies": [],
+      "liveLink": "https://book-haven-1335e.web.app",
+      "githubLinks": {
+        "frontend": "https://github.com/Omarfaruk05/book-haven-frontend",
+        "backend": "https://github.com/Omarfaruk05/book-haven-backend"
+      }
+    },
+    {
+      "name": "Create User",
+      "images": ["https://i.ibb.co/kH7Dr34/create-User-Steps.png"],
+      "description": "A multi-step user registration flow with validation.",
+      "technologies": [],
+      "liveLink": "https://create-user-steps-frontend.vercel.app",
+      "githubLinks": {
+        "frontend": "https://github.com/Omarfaruk05/profile-create-steps",
+        "backend": "https://github.com/Omarfaruk05/profile-create-steps-backend"
+      }
+    },
+    {
+      "name": "Friendly",
+      "images": ["https://i.ibb.co/jyJ6NCQ/Screenshot-2024-07-17-010431.png"],
+      "description": "A social media UI concept with posts, profile, and feeds.",
+      "technologies": [],
+      "liveLink": "https://friendly-blond.vercel.app/",
+      "githubLinks": {
+        "frontend": "https://github.com/Omarfaruk05/friendly",
+        "backend": ""
+      }
+    },
+    {
+      "name": "Cinema",
+      "images": ["https://i.ibb.co/T4YjMyw/Screenshot-2024-07-17-010416.png"],
+      "description": "A movie booking and listing interface with modern UI.",
+      "technologies": [],
+      "liveLink": "https://cinema-blush.vercel.app",
+      "githubLinks": {
+        "frontend": "https://github.com/Omarfaruk05/Cinema",
+        "backend": ""
+      }
+    },
+    {
+      "name": "Next Jwellery",
+      "images": ["https://i.ibb.co/6BM5qCx/Screenshot-2024-07-17-004749.png"],
+      "description": "A clean and stylish jewelry shop website using Next.js.",
+      "technologies": [],
+      "liveLink": "https://next-jewellery.vercel.app",
+      "githubLinks": {
+        "frontend": "https://github.com/Omarfaruk05/Next-Jewellery",
+        "backend": ""
+      }
+    },
+    {
+      "name": "Work Flow",
+      "images": ["https://i.ibb.co/RNfPBxL/Screenshot-2024-07-17-004717.png"],
+      "description": "A visual workflow builder using drag-and-drop components.",
+      "technologies": [],
+      "liveLink": "https://workflow-react-flow.vercel.app",
+      "githubLinks": {
+        "frontend": "https://github.com/Omarfaruk05/workflow-react-flow",
+        "backend": ""
+      }
+    }
+  ]
 }
